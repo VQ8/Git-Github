@@ -1,5 +1,6 @@
 # terms :danh từ
 Repository (Repo)   (Thư mục:git-github)
+Branch
 
 # commands :Lệnh
 - git init : biến repo của chúng ta thành 1 git hay để sử dụng git ta sử dụng init cho repo
@@ -12,3 +13,9 @@ Repository (Repo)   (Thư mục:git-github)
  git commit -m 'initial commit'
  :initial commit là tên ghi chú và hay được đặt với nội dung thời điểm ban đầu của dự án
   -->
+-git log: dùng để coi những thời điểm mà chúng ta đã lưu
+-git log --oneline: ngăn gọn hơn git log
+-git checkout{id commit; branch name} :id trở lại 1 thời điểm của commit-- branch trở lại thời điểm hiện tại
+-git branch: xem tên của branch
+<!-- 1 dự án có thể có nhiều nhánh và nhánh mặc định sẽ là name branch của bạn là master -->
+-git checkout -b {branch name}:tạo ra 1 branch mới
