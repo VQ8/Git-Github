@@ -1,6 +1,9 @@
 # terms :danh từ
 Repository (Repo)   (Thư mục:git-github)
-Branch
+Branch : nhánh
+conflict: xung đột
+local: địa phương 
+remote:xa xôi
 
 # commands :Lệnh
 - git init : biến repo của chúng ta thành 1 git hay để sử dụng git ta sử dụng init cho repo
@@ -19,3 +22,7 @@ Branch
 -git branch: xem tên của branch
 <!-- 1 dự án có thể có nhiều nhánh và nhánh mặc định sẽ là name branch của bạn là master -->
 -git checkout -b {branch name}:tạo ra 1 branch mới
+-git merge {name branch}: tổng hợp lại branch 
+-git branch -d {name branch}:xóa đi 1 branch
+
+-git push
