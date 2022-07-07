@@ -25,4 +25,8 @@ remote:xa xôi
 -git merge {name branch}: tổng hợp lại branch 
 -git branch -d {name branch}:xóa đi 1 branch
 
--git push
+-git push: đẩy code lên github
+<!-- git push link repo master -->
+-git remote add origin link repo
+<!-- biến đường dẫn thành biến origin (tùy đặt tên của origin) -->
+-git push origin master: đẩy code tiện hơn khi đỡ phải gán link
