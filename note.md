@@ -30,3 +30,8 @@ remote:xa xôi
 -git remote add origin link repo
 <!-- biến đường dẫn thành biến origin (tùy đặt tên của origin) -->
 -git push origin master: đẩy code tiện hơn khi đỡ phải gán link
+-git remote add origin {repo url}
+-git push origin { branch name}
+-git clone {repo url}
+-git fetch origin
+-git checkout -b {branch name} origin/{branch name} 
